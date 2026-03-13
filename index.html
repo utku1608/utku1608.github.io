@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Utku Derici - Bilgisayar Mühendisi Portfolio">
+  <title>Utku Derici</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>UD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link" data-key="nav.about">Hakkımda</a></li>
+        <li><a href="#education" class="nav-link" data-key="nav.education">Eğitim</a></li>
+        <li><a href="#experience" class="nav-link" data-key="nav.experience">Deneyim</a></li>
+        <li><a href="#skills" class="nav-link" data-key="nav.skills">Yetenekler</a></li>
+        <li><a href="#projects" class="nav-link" data-key="nav.projects">Projeler</a></li>
+        <li><a href="#contact" class="nav-link" data-key="nav.contact">İletişim</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button class="lang-toggle" id="langToggle" aria-label="Change Language">
+          <span class="lang-option active" id="langTR">TR</span>
+          <span class="lang-divider">|</span>
+          <span class="lang-option" id="langEN">EN</span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+          <i class="fas fa-sun" id="themeIcon"></i>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-avatar-wrap">
+        <div class="hero-avatar">
+          <img src="cvfoto.jpg" alt="Utku Derici" class="hero-avatar-img">
+        </div>
+      </div>
+      <p class="hero-greeting" data-key="hero.greeting">Merhaba, ben</p>
+      <h1 class="hero-name">Utku Derici</h1>
+      <h2 class="hero-role" data-key="hero.role">Bilgisayar Mühendisliği Öğrencisi</h2>
+      <p class="hero-subtitle" data-key="hero.subtitle">Backend geliştirme, web teknolojileri ve sistem tasarımı üzerine
+        çalışıyorum.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" data-key="hero.cta1">Projelerimi Gör</a>
+        <a href="#contact" class="btn btn-outline" data-key="hero.cta2">İletişime Geç</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/utku1608" target="_blank" class="social-link" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/utku-derici-2a6244227" target="_blank" class="social-link"
+          aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:utku1608@gmail.com" class="social-link" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" data-key="section.about">Hakkımda</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="about-bio" data-key="about.bio1">
+            Merhaba! Ben Utku Derici. Yaşar Üniversitesi Bilgisayar Mühendisliği bölümünde son sınıf öğrencisiyim ve
+            2026 yılında mezun olacağım.
+          </p>
+          <p class="about-bio" data-key="about.bio2">
+            Yazılım geliştirme sürecinde özellikle problem çözme, sistem tasarımı ve yeni teknolojileri öğrenme
+            konularından keyif alıyorum. Backend geliştirme, masaüstü uygulamaları ve web teknolojileri üzerinde deneyim
+            kazandım.
+          </p>
+          <p class="about-bio" data-key="about.bio3">
+            Şu anda AuraTwin gibi kullanıcı odaklı uygulamalar geliştiriyor, yeni teknolojileri öğreniyor ve yazılım
+            alanında kendimi sürekli geliştiriyorum.
+          </p>
+          <p class="about-bio" data-key="about.bio4">
+            Uzun vadeli hedefim; güçlü teknik bilgiye sahip, problemleri analiz eden ve değer üreten yazılımlar
+            geliştiren bir yazılım mühendisi olmak.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card reveal">
+            <span class="stat-number">3+</span>
+            <span class="stat-label" data-key="about.stat1">Proje</span>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-number">2026</span>
+            <span class="stat-label" data-key="about.stat2">Mezuniyet</span>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-number">3.05</span>
+            <span class="stat-label" data-key="about.stat3">GPA</span>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-number">B2</span>
+            <span class="stat-label" data-key="about.stat4">İngilizce</span>
+          </div>
+        </div>
+      </div>
+      <!-- CV Banner -->
+      <div class="cv-banner reveal">
+        <div class="cv-banner-info">
+          <div class="cv-icon-wrap">
+            <i class="fas fa-file-pdf"></i>
+          </div>
+          <div>
+            <h4 class="cv-banner-title" data-key="cv.title">Özgeçmişim</h4>
+            <p class="cv-banner-sub" data-key="cv.subtitle">Deneyim, eğitim ve yeteneklerimin detaylı özeti</p>
+          </div>
+        </div>
+        <div class="cv-actions">
+          <a href="Utku_Derici_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fas fa-eye"></i>
+            <span data-key="cv.view">CV'yi Görüntüle</span>
+          </a>
+          <a href="Utku_Derici_CV.pdf" download="Utku_Derici_CV.pdf" class="btn btn-primary">
+            <i class="fas fa-download"></i>
+            <span data-key="cv.download">CV'yi İndir</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" data-key="section.education">Eğitim</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="cards-grid">
+
+        <a href="https://www.yasar.edu.tr" target="_blank" rel="noopener noreferrer"
+          class="edu-card edu-card-link reveal">
+          <div class="edu-card-header">
+            <div class="edu-icon edu-icon-logo">
+              <img src="https://www.google.com/s2/favicons?domain=yasar.edu.tr&sz=64" alt="Yaşar Üniversitesi"
+                class="edu-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <i class="fas fa-university" style="display:none;"></i>
+            </div>
+            <div class="edu-badge" data-key="edu.badge1">%50 Burslu</div>
+          </div>
+          <h3 class="edu-school" data-key="edu.school1">Yaşar Üniversitesi</h3>
+          <p class="edu-degree" data-key="edu.degree1">Bilgisayar Mühendisliği</p>
+          <p class="edu-location"><i class="fas fa-map-marker-alt"></i> İzmir, Türkiye</p>
+          <p class="edu-date"><i class="fas fa-calendar-alt"></i> <span data-key="edu.date1">Eylül 2021 – Haziran
+              2026</span></p>
+          <div class="edu-detail">
+            <span class="tag">GPA: 3.05 / 4.00</span>
+            <span class="tag" data-key="edu.prep">1 Yıl Hazırlık</span>
+          </div>
+        </a>
+
+        <div class="edu-card reveal">
+          <div class="edu-card-header">
+            <div class="edu-icon edu-icon-hs">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="edu-badge edu-badge-hs" data-key="edu.badge2">Lise</div>
+          </div>
+          <h3 class="edu-school" data-key="edu.school2">Selma Yiğitalp Anadolu Lisesi</h3>
+          <p class="edu-degree" data-key="edu.degree2">Lise Diploması</p>
+          <p class="edu-location"><i class="fas fa-map-marker-alt"></i> İzmir, Türkiye</p>
+          <p class="edu-date"><i class="fas fa-calendar-alt"></i> <span data-key="edu.date2">Eylül 2017 – Haziran
+              2021</span></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" data-key="section.experience">Deneyim</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Doruk Yazılım</h3>
+                <p class="timeline-role" data-key="exp.role">Yazılım / IT Stajyeri</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date" data-key="exp.date">2024</span>
+                <span class="tag" data-key="exp.type">Staj</span>
+              </div>
+            </div>
+            <ul class="timeline-list">
+              <li data-key="exp.item1">Logo Netsis ERP sistemi kullanan firmalara teknik destek süreçlerinde görev
+                aldım.</li>
+              <li data-key="exp.item2">AnyDesk ve VPN gibi uzaktan bağlantı araçlarıyla kullanıcı sorunlarının çözümüne
+                destek sağladım.</li>
+              <li data-key="exp.item3">ERP sistemlerinde oluşan teknik problemleri analiz ederek çözüm süreçlerine
+                katkıda bulundum.</li>
+              <li data-key="exp.item4">Kullanıcı taleplerini değerlendirerek sistem kullanımı ve hataların giderilmesi
+                konusunda yönlendirmelerde bulundum.</li>
+              <li data-key="exp.item5">Yazılım sistemlerinin iş süreçleriyle entegrasyonunu gözlemleyerek gerçek iş
+                ortamında ERP uygulamalarını deneyimledim.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">Logo Netsis ERP</span>
+              <span class="tag">AnyDesk</span>
+              <span class="tag">VPN</span>
+              <span class="tag">Technical Support</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" data-key="section.skills">Yetenekler</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <i class="fas fa-code"></i>
+            <h3 data-key="skills.lang">Programlama Dilleri</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">C / C++</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">x86 Assembly</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <i class="fas fa-layer-group"></i>
+            <h3 data-key="skills.frameworks">Frameworks & Kütüphaneler</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">Vite</span>
+            <span class="skill-tag">Mongoose</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <i class="fas fa-database"></i>
+            <h3 data-key="skills.db">Veritabanları</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Microsoft SQL Server</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <i class="fas fa-tools"></i>
+            <h3 data-key="skills.tools">Araçlar & Teknolojiler</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">Cisco Packet Tracer</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <i class="fas fa-brain"></i>
+            <h3 data-key="skills.soft">Soft Skills</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-key="soft.ps">Problem Çözme</span>
+            <span class="skill-tag" data-key="soft.at">Analitik Düşünce</span>
+            <span class="skill-tag" data-key="soft.lead">Liderlik</span>
+            <span class="skill-tag" data-key="soft.team">Takım Çalışması</span>
+            <span class="skill-tag" data-key="soft.comm">İletişim</span>
+            <span class="skill-tag" data-key="soft.adapt">Uyum Sağlama</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <i class="fas fa-microchip"></i>
+            <h3 data-key="skills.cs">Bilgisayar Bilimi</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-key="cs.se">Yazılım Mühendisliği</span>
+            <span class="skill-tag" data-key="cs.cpu">CPU Tasarımı</span>
+            <span class="skill-tag" data-key="cs.ds">Veri Yapıları</span>
+            <span class="skill-tag" data-key="cs.algo">Algoritma Tasarımı</span>
+            <span class="skill-tag" data-key="cs.pe">Prompt Engineering</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title" data-key="section.projects">Projeler</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <!-- PulseForge -->
+        <a href="https://github.com/utku1608/-Fitness-Tracker" target="_blank" rel="noopener noreferrer" class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-icon project-icon-1">
+              <i class="fas fa-dumbbell"></i>
+            </div>
+          </div>
+          <h3 class="project-title">PulseForge</h3>
+          <p class="project-subtitle" data-key="proj1.sub">Fitness Takip Uygulaması</p>
+          <p class="project-desc" data-key="proj1.desc">Kullanıcıların antrenman planları oluşturup ilerlemelerini takip edebildiği full-stack bir fitness uygulaması. Egzersiz kütüphanesi, workout logları, progress grafikleri ve başarı rozetleri içeriyor. JWT tabanlı kimlik doğrulama ve coach/admin rol sistemi entegre edildi.</p>
+          <div class="project-tech">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Vite</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Express</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">JWT</span>
+            <span class="tech-tag">Tailwind CSS</span>
+          </div>
+        </a>
+
+        <!-- LOTR Wiki -->
+        <a href="https://github.com/utku1608/LOTR-Wiki" target="_blank" rel="noopener noreferrer" class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-icon project-icon-2">
+              <i class="fas fa-book-open"></i>
+            </div>
+          </div>
+          <h3 class="project-title">LOTR Wiki</h3>
+          <p class="project-subtitle" data-key="proj2.sub">Yüzüklerin Efendisi Ansiklopedisi</p>
+          <p class="project-desc" data-key="proj2.desc">React ve The One API kullanılarak geliştirilen kapsamlı bir wiki uygulaması. 900'den fazla Orta Dünya karakterini arama ve ırk bazlı filtreleme ile keşfetmeyi, filmlerin detaylı bilgilerine ulaşmayı ve glassmorphism tasarım dili ile modern bir UX sunuyor.</p>
+          <div class="project-tech">
+            <span class="tech-tag">React 19</span>
+            <span class="tech-tag">Vite</span>
+            <span class="tech-tag">Tailwind CSS</span>
+            <span class="tech-tag">React Router</span>
+            <span class="tech-tag">Axios</span>
+            <span class="tech-tag">The One API</span>
+          </div>
+        </a>
+
+        <!-- Job Search App -->
+        <a href="https://github.com/utku1608/job-search-app" target="_blank" rel="noopener noreferrer" class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-icon project-icon-3">
+              <i class="fas fa-briefcase"></i>
+            </div>
+          </div>
+          <h3 class="project-title">Job Search App</h3>
+          <p class="project-subtitle" data-key="proj3.sub">Servis Tabanlı İş Arama Uygulaması</p>
+          <p class="project-desc" data-key="proj3.desc">Microservice mimarisiyle geliştirilmiş, cloud deployment'a hazır bir iş arama uygulaması. API Gateway, Redis dağıtık önbellekleme, AI Agent servisi ve Docker containerization içeriyor. Entegre AI Agent ile doğal dil tabanlı iş arama mümkün.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Redis</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">RabbitMQ</span>
+            <span class="tech-tag">Microservices</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="contact-bg">
+      <div class="contact-blob contact-blob-1"></div>
+      <div class="contact-blob contact-blob-2"></div>
+    </div>
+    <div class="container contact-inner">
+      <div class="section-header reveal">
+        <h2 class="section-title contact-title" data-key="section.contact">İletişim</h2>
+        <div class="section-line"></div>
+      </div>
+      <p class="contact-intro reveal" data-key="contact.intro">
+        Bir proje, iş fırsatı veya sadece merhaba demek için benimle iletişime geçebilirsiniz.
+      </p>
+
+      <!-- Email & Phone — subtle inline -->
+      <div class="contact-meta reveal">
+        <a href="mailto:utku1608@gmail.com" class="contact-meta-item">
+          <i class="fas fa-envelope"></i>
+          <span>utku1608@gmail.com</span>
+        </a>
+        <span class="contact-meta-sep">·</span>
+        <a href="tel:+905537329217" class="contact-meta-item">
+          <i class="fas fa-phone"></i>
+          <span>+90 553 732 92 17</span>
+        </a>
+      </div>
+
+      <!-- LinkedIn & GitHub — big buttons -->
+      <div class="contact-socials reveal">
+        <a href="https://www.linkedin.com/in/utku-derici-2a6244227" target="_blank" rel="noopener noreferrer"
+          class="social-btn social-btn-li">
+          <i class="fab fa-linkedin-in"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/utku1608" target="_blank" rel="noopener noreferrer"
+          class="social-btn social-btn-gh">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#hero" class="nav-logo footer-logo">
+        <span class="logo-bracket">&lt;</span>UD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <p class="footer-text" data-key="footer.text">© 2026 Utku Derici. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
